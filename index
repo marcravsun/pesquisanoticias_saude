@@ -1,1044 +1,2087 @@
+<DOCUMENT filename="index.html">
+
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Galeria de Notícias - Operadoras de Saúde</title>
+
     <style>
+
         body {
+
             font-family: Arial, sans-serif;
+
             background-color: #f9f9f9;
+
             color: #333;
+
             margin: 0;
+
             padding: 20px;
+
         }
+
         .tabs {
+
             list-style: none;
+
             padding: 0;
+
             display: flex;
+
             border-bottom: 1px solid #ddd;
+
             margin-bottom: 20px;
+
         }
+
         .tabs li {
+
             margin-right: 10px;
+
         }
+
         .tabs a {
+
             text-decoration: none;
+
             color: #333;
+
             padding: 10px 15px;
+
             display: block;
+
             border: 1px solid #ddd;
+
             border-bottom: none;
+
             background-color: #fff;
+
             cursor: pointer;
+
         }
+
         .tabs a.active {
+
             background-color: #eee;
+
         }
+
         .tab-content {
+
             display: none;
+
         }
+
         .tab-content.active {
+
             display: block;
+
         }
+
         .gallery {
+
             display: grid;
+
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
             gap: 20px;
+
         }
+
         .card {
+
             background-color: #fff;
+
             border: 1px solid #ddd;
+
             padding: 10px;
+
             text-align: center;
+
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
         }
+
         .card img {
+
             max-width: 100%;
+
             height: auto;
+
             margin-bottom: 10px;
+
         }
+
         .card h3 {
+
             font-size: 16px;
+
             margin: 0 0 10px;
+
         }
+
         .card a {
+
             text-decoration: none;
+
             color: #007bff;
+
         }
+
     </style>
+
 </head>
+
 <body>
+
     <h1>Galeria de Notícias - Operadoras de Saúde (Janeiro a Julho de 2025)</h1>
+
     <ul class="tabs">
+
         <li><a href="#bradesco" class="active">Bradesco Saúde</a></li>
+
         <li><a href="#amil">Amil</a></li>
+
         <li><a href="#sulamerica">SulAmérica Saúde</a></li>
+
         <li><a href="#unimed">Unimed Brasil</a></li>
+
         <li><a href="#smiles">Smiles Saúde</a></li>
+
         <li><a href="#notredame">NotreDame Intermédica</a></li>
+
         <li><a href="#hapvida">Hapvida</a></li>
+
         <li><a href="#prevent">Prevent Senior</a></li>
+
     </ul>
 
     <div id="bradesco" class="tab-content active">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Bradesco Saúde é alvo de ação civil pública por exigir CNES para reembolso</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/05/bradesco-saude-e-alvo-de-acao-civil-publica-por-exigir-cnes-para-reembolso.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Bradesco Saúde prioriza atenção primária e investe em tecnologia</h3>
+
                 <a href="https://www1.folha.uol.com.br/o-melhor-de-sao-paulo/2025/04/bradesco-saude-prioriza-atencao-primaria-e-investe-em-tecnologia.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Bradesco, Amil, SulAmérica: quais são os maiores planos de saúde do Brasil</h3>
+
                 <a href="https://oglobo.globo.com/economia/noticia/2025/05/07/bradesco-amil-sulamerica-quais-sao-os-maiores-planos-de-saude-do-brasil-confira-ranking-e-perfil.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>Elevidys: Justiça bloqueia R$ 33 milhões de plano para custear tratamento</h3>
+
                 <a href="https://www.jota.info/saude/elevidys-justica-bloqueia-r-33-milhoes-de-plano-para-custear-tratamento-de-dmd" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content, as there are no meta tags or explicit main image URLs mentioned. Therefore, the response is:
+
+No image found" alt="News Image">
+
                 <h3>Nos balanços de Bradesco e SulAmérica, uma boa notícia para a Hapvida</h3>
+
                 <a href="https://exame.com/insight/nos-balancos-de-bradesco-e-sulamerica-uma-boa-noticia-para-a-hapvida/p" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Mater Dei e Bradesco Saúde miram parcerias além de São Paulo</h3>
+
                 <a href="https://veja.abril.com.br/coluna/radar-economico/mater-dei-e-bradesco-saude-miram-parcerias-alem-de-sao-paulo/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS determina reajuste superior para 400 mil usuários de planos individuais</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/07/15/ans-determina-reajuste-superior-para-400-mil-usuarios-de-planos-de-saude-individuais.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde: quem cresce e quem encolhe no mercado neste início de 2025</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/03/planos-de-saude-quem-cresce-e-quem-encolhe-no-mercado-neste-inicio-de-2025.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Lucro dos planos de saúde quintuplica em 2024, segundo ANS</h3>
+
                 <a href="https://cultura.uol.com.br/noticias/70969_lucro-dos-planos-de-saude-quintuplica-em-2024-segundo-ans.html" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Nos planos de saúde coletivos, Amil lidera reajustes - Bradesco acelera alta</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/01/nos-planos-de-saude-coletivos-amil-lidera-reajustes-bradesco-acelera-alta.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS aprova reajuste de até 7,16% para contratos antigos de planos de saúde</h3>
+
                 <a href="https://economia.uol.com.br/noticias/estadao-conteudo/2025/07/15/ans-aprova-reajuste-de-ate-716-para-contratos-antigos-de-planos-de-saude.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Dayse de Vasconcelos Mayer: As armadilhas dos Planos de Saúde</h3>
+
                 <a href="https://jc.uol.com.br/opiniao/artigo/2025/07/12/dayse-de-vasconcelos-mayer-as-armadilhas-dos-planos-de-saude.html" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Justiça determina que plano custeie congelamento de óvulos</h3>
+
                 <a href="https://www1.folha.uol.com.br/equilibrioesaude/2025/05/justica-de-sp-determina-que-plano-de-saude-custeie-congelamento-de-ovulos-de-paciente-com-cancer.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>ANS abrirá nova consulta pública sobre política de preços dos planos</h3>
+
                 <a href="https://www.jota.info/saude/ans-abrira-nova-consulta-publica-sobre-politica-de-precos-dos-planos" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS aprova reajuste de até 7,16% para planos de saúde antigos</h3>
+
                 <a href="https://www.otempo.com.br/economia/2025/7/15/plano-de-saude-mais-caro-ans-aprova-reajuste-de-ate-7-16-para-contratos-antigos" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Lucro dos planos de saúde quintuplica em 2024, para R$ 10,2 bilhões</h3>
+
                 <a href="https://www1.folha.uol.com.br/mercado/2025/03/lucro-dos-planos-de-saude-quintuplica-em-2024-para-r-102-bilhoes.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>Notícias sobre Bradesco</h3>
+
                 <a href="https://www1.folha.uol.com.br/folha-topicos/bradesco/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida “desenrola” dívida com o SUS e tem perdão de 866 milhões</h3>
+
                 <a href="https://piaui.folha.uol.com.br/hapvida-desenrola-divida-com-o-sus-e-tem-perdao-de-866-milhoes/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://valor.globo.com/publicacoes/especiais/revista-seguros-e-previdencia/noticia/2025/06/30/saude-suplementar-registra-lucro-historico-mas-sustentabilidade-preocupa-setor.ghtml" alt="News Image">
+
                 <h3>Saúde suplementar registra lucro histórico, mas sustentabilidade preocupa setor</h3>
+
                 <a href="https://valor.globo.com/publicacoes/especiais/revista-seguros-e-previdencia/noticia/2025/06/30/saude-suplementar-registra-lucro-historico-mas-sustentabilidade-preocupa-setor.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS muda regras para planos de saúde e pressiona operadoras a reduzir queixas</h3>
+
                 <a href="https://www.infomoney.com.br/minhas-financas/ans-muda-regras-para-planos-de-saude-e-pressiona-operadoras-a-reduzir-queixas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>RDOR3: Por que o Itaú BBA destaca a Rede D'Or como preferida no setor de saúde</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/rdor3-por-que-o-itau-bba-destaca-a-rede-dor-como-preferida-no-setor-de-saude/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil lideram adição de clientes de planos de saúde em maio</h3>
+
                 <a href="https://economia.uol.com.br/noticias/reuters/2025/07/08/sulamerica-e-amil-lideram-adicao-de-clientes-de-planos-de-saude-em-maio-mostram-ans-e-analistas.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde de MEIs, pequenas e médias empresas têm reajuste na casa dos 15%</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/05/09/planos-de-saude-de-meis-e-pequenas-e-medias-empresas-tem-reajuste-na-casa-dos-15percent-veja-aumento-por-operadora.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS aprova reajuste de até 7,16% para contratos antigos de planos de saúde</h3>
+
                 <a href="https://noticias.r7.com/economia/ans-aprova-reajuste-de-ate-716-para-contratos-antigos-de-planos-de-saude-15072025/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde investem menos em cuidados de prevenção</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/05/19/planos-de-saude-investem-menos-em-cuidados-de-prevencao-mas-pequenas-operadoras-usam-isso-para-cortar-custos.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include any HTML meta tags or image URLs, so it is not possible to extract the URL of the main image or og:image meta tag." alt="News Image">
+
                 <h3>Planos de saúde reduzem reajustes para pequenas empresas</h3>
+
                 <a href="https://exame.com/webstories/invest/planos-de-saude-reduzem-reajustes-para-pequenas-empresas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil acirram disputa e lideram adição de clientes de planos em maio</h3>
+
                 <a href="https://www.infomoney.com.br/saude/sulamerica-e-amil-acirram-disputa-e-lideram-adicao-de-clientes-de-planos-em-maio/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde coletivos devem ter reajuste de dois dígitos pelo quarto ano seguido</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/05/23/planos-de-saude-coletivos-devem-ter-reajuste-de-dois-digitos-pelo-quarto-ano-seguido.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Setor de planos de saúde atinge 51,5 milhões de usuários em novembro</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/01/03/setor-de-planos-de-saude-atinge-515-milhoes-de-usuarios-em-novembro-alta-de-166percent.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS aprova reajuste de até 7,16% para planos de saúde antigos</h3>
+
                 <a href="https://www.otempo.com.br/economia/2025/7/15/plano-de-saude-mais-caro-ans-aprova-reajuste-de-ate-7-16-para-contratos-antigos" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="amil" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://www.infomoney.com.br/wp-content/uploads/2023/03/amil.jpg" alt="News Image">
+
                 <h3>Amil retoma crescimento e acirra disputa entre operadoras</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/amil-retoma-crescimento-e-acirra-disputa-entre-operadoras-como-afeta-empresas-da-b3/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Exclusivo: Dono da Amil é sondado para ter sócio no negócio, mas descarta operação</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/03/27/exclusivo-dono-da-amil-e-sondado-para-ter-socio-no-negocio-mas-descarta-operacao.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="(Pixabay/Pexels)" alt="News Image">
+
                 <h3>SulAmérica e Amil acirram disputa e lideram adição de clientes de planos em maio</h3>
+
                 <a href="https://www.infomoney.com.br/saude/sulamerica-e-amil-acirram-disputa-e-lideram-adicao-de-clientes-de-planos-em-maio/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Amil recupera crescimento em 2025 e atrai 100 mil novos clientes em planos de saúde</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/04/amil-recupera-crescimento-em-2025-e-atrai-100-mil-novos-clientes-em-planos-de-saude.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Seripieri rechaça interessados e curte 'vida de solteiro' à frente da Amil</h3>
+
                 <a href="https://veja.abril.com.br/coluna/radar-economico/seripieri-rechaca-interessados-e-curte-vida-de-solteiro-a-frente-da-amil/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Amil é notificada pelo Ministério Público de SP por descumprimento de decisões judiciais</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/01/15/amil-e-notificada-pelo-ministerio-publico-de-sp-por-descumprimento-de-decisoes-judiciais.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Dasa e Amil finalizam acordo para se tornarem sócias na Ímpar</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/04/01/dasa-e-amil-finalizam-acordo-para-se-tornarem-scias-na-mpar.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil estendem seu duelo particular no setor de planos de saúde</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/07/sulamerica-e-amil-estendem-seu-duelo-particular-no-setor-de-planos-de-saude.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Amil entra na lista dos planos de saúde com maior lucro após três anos entre os que tinham maior prejuízo</h3>
+
                 <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/03/amil-entra-na-lista-dos-planos-de-saude-com-maior-lucro-apos-tres-anos-entre-os-que-tinham-maior-prejuizo.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil lideram adição de clientes de planos de saúde em maio</h3>
+
                 <a href="https://economia.uol.com.br/noticias/reuters/2025/07/08/sulamerica-e-amil-lideram-adicao-de-clientes-de-planos-de-saude-em-maio-mostram-ans-e-analistas.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://valor.globo.com/empresas/noticia/2025/02/04/dasa-aprova-aditamento-ao-acordo-de-associacao-com-a-amil-para-reducao-da-divida.ghtml" alt="News Image">
+
                 <h3>Dasa aprova aditamento ao acordo de associação com a Amil para redução da dívida</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/02/04/dasa-aprova-aditamento-ao-acordo-de-associacao-com-a-amil-para-reducao-da-divida.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Nos planos de saúde, Amil e SulAmérica travam corrida particular</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/05/nos-planos-de-saude-amil-e-sulamerica-travam-corrida-particular.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil lideram crescimento de carteiras nos planos de saúde</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/06/sulamerica-e-amil-lideram-crescimento-de-carteiras-nos-planos-de-saude.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Dasa e Amil reúnem seus hospitais em nova empresa e oferecem alternativa à rede própria para os planos de saúde</h3>
+
                 <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/04/dasa-e-amil-reunem-seus-hospitais-em-nova-empresa-e-oferecem-alternativa-a-rede-propria-para-os-planos-de-saude.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Ímpar, empresa da Dasa e da Amil, vai emitir R$ 3 bilhões em debêntures</h3>
+
                 <a href="https://valor.globo.com/financas/noticia/2025/02/21/impar-empresa-da-dasa-e-da-amil-vai-emitir-r-3-bilhoes-em-debentures.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>A mais nova ofensiva do MP-SP contra a Amil</h3>
+
                 <a href="https://veja.abril.com.br/coluna/radar-economico/a-mais-nova-ofensiva-do-mp-sp-contra-a-amil/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Unimed Ferj negocia com rede de hospitais de Amil e Dasa para substituir Rede D'Or</h3>
+
                 <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/01/unimed-ferj-negocia-com-rede-de-hospitais-de-amil-e-dasa-para-substituir-rede-dor.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Amil: leitor relata falha no pagamento de mensalidade de plano</h3>
+
                 <a href="https://www.estadao.com.br/sao-paulo/seus-direitos/amil-leitor-relata-falha-no-pagamento-de-mensalidade-de-plano/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Nos planos de saúde coletivos, Amil lidera reajustes</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/01/nos-planos-de-saude-coletivos-amil-lidera-reajustes-bradesco-acelera-alta.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Bradesco, Amil, SulAmérica: quais são os maiores planos de saúde do Brasil</h3>
+
                 <a href="https://oglobo.globo.com/economia/noticia/2025/05/07/bradesco-amil-sulamerica-quais-sao-os-maiores-planos-de-saude-do-brasil-confira-ranking-e-perfil.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include any HTML meta tags or visible image URLs, so it is not possible to extract the URL of the main image or og:image meta tag." alt="News Image">
+
                 <h3>Dasa/Amil desistem da Oncoclínicas</h3>
+
                 <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/02/dasaamil-desistem-da-oncoclinicas.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>UnitedHealth estuda venda de negócios na América Latina por US$ 1 bi</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/06/09/unitedhealth-estuda-venda-de-negcios-na-amrica-latina-por-us-1-bi-diz-agncia.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Amil compra carteira de planos odontológicos da Odonto Santander</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/01/amil-compra-carteira-de-planos-da-odonto-santander.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS determina reajuste superior para 400 mil usuários de planos individuais</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/07/15/ans-determina-reajuste-superior-para-400-mil-usuarios-de-planos-de-saude-individuais.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>O andar da Amil no Sírio-Libanês</h3>
+
                 <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/05/o-andar-da-amil-no-sirio-libanes.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Hospital Alvorada Moema aumentará em até 40% número de cirurgias</h3>
+
                 <a href="https://valor.globo.com/conteudo-de-marca/amil/noticia/2025/04/14/hospital-alvorada-moema-aumentara-em-ate-40percent-numero-de-cirurgias.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Grupo Amil recebe inscrições para 100 vagas no Programa de Aprendiz</h3>
+
                 <a href="https://jcconcursos.uol.com.br/noticia/empregos/grupo-amil-recebe-inscricoes-para-100-vagas-no-programa-de-aprendiz-com-beneficios-clt-136241" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Plano de saúde Amil tem 10 dias para providenciar nova rede de atendimento oftalmológica emergencial 24h no Recife</h3>
+
                 <a href="https://jc.uol.com.br/pernambuco/2025/05/17/plano-de-saude-amil-tem-10-dias-para-providenciar-nova-rede-de-atendimento-oftalmologica-emergencial-24h-no-recife.html" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>TST: Operadora de plano de saúde muda forma de custeio e é condenada por danos morais coletivos</h3>
+
                 <a href="https://valor.globo.com/legislacao/noticia/2025/05/26/tst-operadora-de-plano-de-saude-muda-forma-de-custeio-e-e-condenada-por-danos-morais-coletivos.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS determina que Golden Cross venda carteira de planos de saúde em 30 dias</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/01/24/ans-determina-que-golden-cross-venda-carteira-de-planos-de-saude-em-30-dias.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="sulamerica" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>'ANS não pode praticamente estatizar os planos de saúde', diz CEO da SulAmérica</h3>
+
                 <a href="https://oglobo.globo.com/economia/negocios/noticia/2025/02/23/ans-nao-pode-praticamente-estatizar-os-planos-de-saude-diz-ceo-da-sulamerica-que-assume-a-fenasaude.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Executivo de Valor: A paixão pela matemática levou Raquel Reis da SulAmérica a se tornar a campeã em seguros e previdência</h3>
+
                 <a href="https://valor.globo.com/executivo-de-valor/noticia/2025/06/16/executivo-de-valor-a-paixao-pela-matematica-levou-raquel-reis-da-sulamerica-a-se-tornar-a-campea-em-seguros-e-previdencia.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Entenda as acusações de plano de saúde contra médico suspeito de fraude de R$ 2 milhões</h3>
+
                 <a href="https://g1.globo.com/sp/sao-paulo/noticia/2025/04/08/entenda-as-acusacoes-de-plano-de-saude-contra-medico-suspeito-de-fraude-de-r-2-milhoes-em-recibos.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Namorado de Sandy nega acusação de fraude contra seguradora de saúde</h3>
+
                 <a href="https://www.uol.com.br/splash/noticias/2025/04/11/namorado-de-sandy-nega-acusacao-de-fraude-contra-seguradora-de-saude.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Médico é acusado de fraude de R$ 2 milhões e proibido pela Justiça de fracionar recibos</h3>
+
                 <a href="https://g1.globo.com/sp/sao-paulo/noticia/2025/04/07/namorado-de-sandy-e-proibido-pela-justica-de-fracionar-recibos-medicos-apos-acusacao-de-fraude-de-r-2-milhoes.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Polêmica jurídica evidencia curiosa diferença entre Sandy e Pedro Andrade</h3>
+
                 <a href="https://veja.abril.com.br/coluna/veja-gente/polemica-juridica-evidencia-curiosa-diferenca-entre-sandy-e-pedro-andrade/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Plano de Saúde MEI 1 e 2 vidas: Confira Preços e Tabela 2025</h3>
+
                 <a href="https://www.acritica.com/geral/plano-de-saude-mei-1-e-2-vidas-confira-precos-e-tabela-2025-1.368793" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Namorado de Sandy é acusado pela Justiça de São Paulo de fraudar plano de saúde</h3>
+
                 <a href="https://tv.sbt.com.br/noticia/jornalismo/fofocalizando/282124-namorado-de-sandy-e-acusado-pela-justica-de-sao-paulo-de-fraudar-plano-de-saude" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>Bruno Sobral assume diretoria executiva da FenaSaúde</h3>
+
                 <a href="https://www.jota.info/saude/bruno-sobral-assume-diretoria-executiva-da-fenasaude" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content, as there are no explicit references to a main image or og:image meta tag. Therefore, the response is:
+
+No image found" alt="News Image">
+
                 <h3>BTG (BPAC11) retira Meli de carteira recomendada, reduz exposição em varejo e aposta em Rede D'Or</h3>
+
                 <a href="https://exame.com/invest/onde-investir/btg-bpac11-retira-meli-de-carteira-recomendada-reduz-exposicao-em-varejo-e-aposta-em-rede-dor/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Justiça barra prática médica de Pedro Andrade, namorado de Sandy</h3>
+
                 <a href="https://www.correio24horas.com.br/em-alta/prejuizo-ultrapassa-r-2-milhoes-justica-barra-pratica-medica-de-pedro-andrade-namorado-de-sandy-0425" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Namorado de Sandy tem nova derrota após acusação de fraude de R$ 2 milhões</h3>
+
                 <a href="https://www.uol.com.br/splash/noticias/2025/04/07/namorado-de-sandy-tem-nova-derrota-apos-acusacao-de-fraude-de-r-2-milhoes.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Namorado de Sandy pode ser preso? O que diz a lei</h3>
+
                 <a href="https://www.uol.com.br/splash/noticias/2025/06/02/namorado-de-sandy-pode-ser-preso-os-possiveis-desdobramentos-de-fraude.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL was found in the provided content that matches the criteria of being a main image or og:image meta tag. The only image description mentions a photo credited to SPENCER PLATT/Getty Images via AFP, but no URL is provided. Therefore, the response is:
+
+No image found" alt="News Image">
+
                 <h3>As Big Four não atingem metas de mulheres sócias em 2025</h3>
+
                 <a href="https://www1.folha.uol.com.br/mercado/2025/02/as-quatro-maiores-auditorias-nao-vao-atingir-as-metas-de-mulheres-socias-em-2025.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Para chegar a 10% do PIB, seguradoras investem no patrocínio de rua</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/02/10/para-chegar-a-10-do-pib-seguradoras-vao-as-ruas.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Pós-Davos: evento debate IA, transição verde e impacto</h3>
+
                 <a href="https://www1.folha.uol.com.br/folha-social-mais/2025/02/evento-pos-davos-debate-ia-transicao-verde-e-oportunidades-para-o-setor-de-impacto.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Mulheres reconstroem seu papel na infraestrutura</h3>
+
                 <a href="https://www1.folha.uol.com.br/mercado/2025/01/mulheres-reconstroem-seu-papel-na-infraestrutura-e-conquistam-liderancas-no-setor.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Summary of each segment:
+---------------------
+No image found
+---------------------
+
+No image found
+---------------------" alt="News Image">
+
                 <h3>Saiba quais políticos e personalidades visitaram a Folha</h3>
+
                 <a href="https://www1.folha.uol.com.br/colunas/painel/2023/01/saiba-quais-politicos-pessoas-publicas-e-personalidades-visitaram-a-folha-em-2023.shtml" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="unimed" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>STJ autoriza recuperação judicial de cooperativa médica</h3>
+
                 <a href="https://valor.globo.com/legislacao/noticia/2025/06/03/stj-autoriza-recuperao-judicial-de-cooperativa-mdica.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Veja quem venceu as eleições para comandar a Unimed Belém</h3>
+
                 <a href="https://diariodopara.com.br/belem/veja-quem-venceu-as-eleicoes-para-comandar-a-unimed-belem/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Faleceu Eudes Aquino</h3>
+
                 <a href="https://blog.tribunadonorte.com.br/territoriolivre/faleceu-eudes-aquino/" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="smiles" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Gol encerra acesso gratuito a aplicativos de mensagens para clientes Smiles</h3>
+
                 <a href="https://noticias.r7.com/prisma/luiz-fara-monteiro/gol-encerra-acesso-gratuito-a-aplicativos-de-mensagens-para-clientes-smiles-03022025/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>A história do álbum que demorou mais de 40 anos para ser lançado</h3>
+
                 <a href="https://g1.globo.com/pop-arte/musica/noticia/2025/06/17/a-historia-do-album-que-demorou-mais-de-40-anos-para-ser-lancado.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Azul e Gol: o que acontece com pontos e milhas acumulados em uma possível fusão</h3>
+
                 <a href="https://www.infomoney.com.br/minhas-financas/azul-e-gol-o-que-acontece-com-pontos-e-milhas-acumulados-em-uma-possivel-fusao/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SUS passa a oferecer cirurgia reparadora de fissura labiopalatina</h3>
+
                 <a href="https://drauziovarella.uol.com.br/pediatria/sus-passa-a-oferecer-cirurgia-reparadora-de-fissura-labiopalatina/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Framework Digital adquire consultoria Rethink</h3>
+
                 <a href="https://veja.abril.com.br/coluna/radar-economico/framework-digital-adquire-consultoria-rethink/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>Escova de dentes infantil smiles 3 anos + powerdent</h3>
+
                 <a href="https://shopping.uol.com.br/p/escova-de-dentes-infantil-smiles-3-anos-powerdent?id=S-18008438-815237-0&pageid=/p/escova-de-dentes-intertufo-conica-3-a-7mm-powerdent" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Brian Wilson, vocalista e fundador dos Beach Boys, morre aos 82 anos</h3>
+
                 <a href="https://www.infomoney.com.br/mundo/brian-wilson-vocalista-e-fundador-dos-beach-boys-morre-aos-82-anos/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>"Die With A Smile", de Lady Gaga e Bruno Mars, completa 100 dias no topo do Spotify Global</h3>
+
                 <a href="https://www.otempo.com.br/entretenimento/2025/1/4/die-with-a-smile-de-lady-gaga-e-bruno-mars-completa-100-dias-no-topo-do-spotify-global" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>'Abracadabra' e 'Die With A Smile': Lady Gaga ocupa os dois primeiros lugares do Spotify Global</h3>
+
                 <a href="https://oglobo.globo.com/cultura/noticia/2025/02/08/abracadabra-e-die-with-a-smile-lady-gaga-ocupa-os-dois-primeiros-lugares-do-spotify-global.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Lady Gaga iguala recorde de Michael Jackson e comemora sucesso de 'Die With A Smile'</h3>
+
                 <a href="https://rollingstone.uol.com.br/musica/lady-gaga-iguala-recorde-de-michael-jackson-e-comemora-sucesso-de-die-with-a-smile/" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="notredame" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://g1.globo.com/mg/minas-gerais/noticia/2025/03/31/procon-multa-operadora-de-plano-de-saude-em-mais-de-r-700-mil-por-descredenciar-hospital-sem-aviso.ghtml" alt="News Image">
+
                 <h3>Procon multa operadora de plano de saúde em mais de R$ 700 mil por descredenciar hospital sem aviso</h3>
+
                 <a href="https://g1.globo.com/mg/minas-gerais/noticia/2025/03/31/procon-multa-operadora-de-plano-de-saude-em-mais-de-r-700-mil-por-descredenciar-hospital-sem-aviso.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Reclamações dos beneficiários das operadoras de saúde caem 23% em junho</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/07/08/reclamacoes-dos-beneficiarios-das-operadoras-de-saude-caem-23percent-em-junho.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>NotreDame Intermédica: leitora afirma que plano descumpriu liminar</h3>
+
                 <a href="https://www.estadao.com.br/sao-paulo/seus-direitos/notredame-intermedica-leitora-afirma-que-plano-descumpriu-liminar/?srsltid=AfmBOop7x7e6sXGsUnMGVAQcuBCbw2-zLaLTUylRksmj973WicB3LQ8a" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Setor de planos de saúde atinge 51,5 milhões de usuários em novembro</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/01/03/setor-de-planos-de-saude-atinge-515-milhoes-de-usuarios-em-novembro-alta-de-166percent.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida “desenrola” dívida com o SUS e tem perdão de 866 milhões</h3>
+
                 <a href="https://piaui.folha.uol.com.br/hapvida-desenrola-divida-com-o-sus-e-tem-perdao-de-866-milhoes/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde para pequenas e médias empresas têm reajuste na casa dos 15%</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/05/05/planos-de-sade-para-pequenas-e-mdias-empresas-tm-reajuste-na-casa-dos-15-pontos-percentuais-em-2025-2026.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include HTML meta tags or image URLs, so it is not possible to extract the URL of the main image or og:image meta tag." alt="News Image">
+
                 <h3>Planos de saúde reduzem reajustes para pequenas empresas</h3>
+
                 <a href="https://exame.com/webstories/invest/planos-de-saude-reduzem-reajustes-para-pequenas-empresas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS muda regras para planos de saúde e pressiona operadoras a reduzir queixas</h3>
+
                 <a href="https://www.infomoney.com.br/minhas-financas/ans-muda-regras-para-planos-de-saude-e-pressiona-operadoras-a-reduzir-queixas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>SulAmérica e Amil acirram disputa e lideram adição de clientes de planos em maio</h3>
+
                 <a href="https://www.infomoney.com.br/saude/sulamerica-e-amil-acirram-disputa-e-lideram-adicao-de-clientes-de-planos-em-maio/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Bradesco, Amil, SulAmérica: quais são os maiores planos de saúde do Brasil</h3>
+
                 <a href="https://oglobo.globo.com/economia/noticia/2025/05/07/bradesco-amil-sulamerica-quais-sao-os-maiores-planos-de-saude-do-brasil-confira-ranking-e-perfil.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Saúde - Últimas notícias</h3>
+
                 <a href="https://valor.globo.com/empresas/saude/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>BBA reforça aposta em Hapvida com sólida geração de caixa e queda na judicialização</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/bba-reforca-aposta-em-hapvida-com-solida-geracao-de-caixa-e-queda-na-judicializacao/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Associação de planos de saúde investe em plataforma com IA para identificação de fraudes</h3>
+
                 <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/04/associacao-de-planos-de-saude-investe-em-plataforma-com-inteligencia-artificial-para-identificacao-de-fraudes.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde de MEIs, pequenas e médias empresas têm reajuste na casa dos 15%</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/05/09/planos-de-saude-de-meis-e-pequenas-e-medias-empresas-tem-reajuste-na-casa-dos-15percent-veja-aumento-por-operadora.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Banco de Wall Street projeta salto da maior operadora de saúde do Brasil</h3>
+
                 <a href="https://economia.uol.com.br/colunas/graciliano-rocha/2025/06/30/banco-de-wall-street-projeta-salto-da-maior-operadora-de-saude-do-brasil.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Superintendente de rede da RECORD participa da inauguração do hospital Ariano Suassuna em Recife</h3>
+
                 <a href="https://record.r7.com/record-emissoras/diversos/superintendente-de-rede-da-record-participa-da-inauguracao-do-hospital-ariano-suassuna-em-recife-16062025/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Exclusivo: Dono da Amil é sondado para ter sócio no negócio</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/03/27/exclusivo-dono-da-amil-e-sondado-para-ter-socio-no-negocio-mas-descarta-operacao.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Ela chegou aos 100 com bebida, gordura e sorte</h3>
+
                 <a href="https://www.uol.com.br/vivabem/noticias/redacao/2025/01/15/aos-100-ela-teve-tuberculose-tetano-escarlatina-e-esta-sendo-estudada.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Nothing is retrieved..." alt="News Image">
+
                 <h3>Últimas notícias sobre Invest</h3>
+
                 <a href="https://exame.com/invest%25C2%25A0/ultimas-noticias/967/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Curtas | Empresas</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/06/17/49af10d5-curtas.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Startup mineira fatura R$ 15 milhões com IA que rastreia doenças</h3>
+
                 <a href="https://exame.com/negocios/startup-mineira-fatura-r-15-milhoes-com-ia-que-rastreia-doencas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Plano coletivo de saúde: veja o reajuste de cada operadora</h3>
+
                 <a href="https://www1.folha.uol.com.br/mercado/2025/05/reajuste-de-planos-coletivos-de-saude-comeca-a-valer-em-maio-veja-o-aumento-por-operadora.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Psicólogas são gravadas debochando de menino autista em hospital de SP</h3>
+
                 <a href="https://hugogloss.uol.com.br/brasil/psicologas-sao-gravadas-debochando-de-menino-autista-em-hospital-de-sp-ouca/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Idosa é picada por dezenas de formigas encontradas em leito de hospital particular de Sorocaba</h3>
+
                 <a href="https://g1.globo.com/sp/sorocaba-jundiai/noticia/2025/03/05/idosa-e-picada-por-dezenas-de-formigas-encontradas-em-leito-de-hospital-particular-de-sorocaba-diz-familia.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS determina reajuste máximo de 6,06% para plano de saúde individual</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/06/23/ans-determina-reajuste-mximo-de-606-pontos-percentuais-para-plano-de-sade-individual.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Planos de saúde coletivos devem ter reajuste de dois dígitos pelo quarto ano seguido</h3>
+
                 <a href="https://oglobo.globo.com/economia/defesa-do-consumidor/noticia/2025/05/23/planos-de-saude-coletivos-devem-ter-reajuste-de-dois-digitos-pelo-quarto-ano-seguido.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Rebranding na saúde: corretora Amarq assume nome de sua healthtech, Boon</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/05/rebranding-na-saude-corretora-amarq-assume-nome-de-sua-healthtech-boon.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida | HAPV3 - Ações na bolsa</h3>
+
                 <a href="https://valor.globo.com/empresas/valor-empresas-360/hapv3-hapvida/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Margot Vries, 100 anos: “Obedeça seu corpo. Ele diz se você está bem”</h3>
+
                 <a href="https://veja.abril.com.br/saude/margot-vries-100-anos-obedeca-seu-corpo-ele-diz-se-voce-esta-bem/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Após 'divórcio iminente' na Azzas, Jatahy e Birman selam acordo de paz</h3>
+
                 <a href="https://oglobo.globo.com/economia/negocios/noticia/2025/06/30/apos-divorcio-iminente-na-azzas-jatahy-e-birman-selam-acordo-de-paz.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="hapvida" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Hapvida “desenrola” dívida com o SUS e tem perdão de 866 milhões</h3>
+
                 <a href="https://piaui.folha.uol.com.br/hapvida-desenrola-divida-com-o-sus-e-tem-perdao-de-866-milhoes/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Após Hapvida reverter prejuízo, CEO diz que maior operadora de saúde do país fecha 'período histórico'</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/03/20/apos-hapvida-reverter-prejuizo-ceo-diz-que-maior-operadora-de-saude-do-pais-fecha-periodo-historico.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida: cobranças retroativas do SUS pressionam provisões</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-cobrancas-retroativas-do-sus-pressionam-provisoes-banco-ve-efeito-limitado/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida aprova contrato para construir e alugar hospital no Mato Grosso do Sul</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/07/08/hapvida-aprova-contrato-para-construir-e-alugar-hospital-no-mato-grosso-do-sul.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Por que a Hapvida está roubando a cena da Rede D'Or nas carteiras dos investidores</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/por-que-a-hapvida-esta-roubando-a-cena-da-rede-dor-nas-carteiras-dos-investidores/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida reverte prejuízo e tem lucro no 4º trimestre</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/03/19/hapvida-reverte-prejuizo-e-tem-lucro-no-4o-trimestre.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida | HAPV3 - Ações na bolsa</h3>
+
                 <a href="https://valor.globo.com/empresas/valor-empresas-360/hapv3-hapvida/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Quem comprou o hospital vendido pela Hapvida por R$ 65 milhões no PR</h3>
+
                 <a href="https://oglobo.globo.com/blogs/capital/post/2025/06/quem-comprou-o-hospital-vendido-pela-hapvida-por-r-65-milhoes-no-pr.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida tem lucro líquido ajustado de R$ 514,7 Mi no 4T24</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-hapv3-resultados-quarto-trimestre-2024/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida: HAPV3 cai 5,5% e é destaque de baixa do Ibovespa com judicialização no radar</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-hapv3-cai-55-e-e-destaque-de-baixa-do-ibovespa-com-judicializacao-no-radar/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Governo apoia criação de plano de saúde de até R$ 100</h3>
+
                 <a href="https://exame.com/invest/mercados/governo-apoia-criacao-de-plano-de-saude-de-ate-r-100-ameaca-para-hapvida-hapv3/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Divulgação — Foto: PressWorks" alt="News Image">
+
                 <h3>Com guarda-chuvas gratuitos nos metrôs e trens de SP, Hapvida NotreDame lança ação urbana</h3>
+
                 <a href="https://valor.globo.com/patrocinado/pressworks/noticia/2025/06/30/com-guardachuvas-gratuitos-nos-metros-e-trens-de-sp-hapvida-notredame-lanca-uma-das-maiores-acoes-urbanas-de-cuidado.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content, as there is no explicit main image URL or og:image meta tag mentioned. Therefore, the response is:
+
+No image found" alt="News Image">
+
                 <h3>Nos balanços de Bradesco e SulAmérica, uma boa notícia para a Hapvida</h3>
+
                 <a href="https://exame.com/invest/mercados/nos-balancos-de-bradesco-e-sulamerica-uma-boa-noticia-para-a-hapvida/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida tem lucro líquido ajustado de R$416,4 mi no 1° tri</h3>
+
                 <a href="https://economia.uol.com.br/noticias/reuters/2025/05/12/hapvida-tem-lucro-liquido-ajustado-de-r4164-mi-no-1-tri.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida retifica saldos contábeis e adere a acordo de renegociação de dívidas</h3>
+
                 <a href="https://economia.uol.com.br/noticias/reuters/2025/03/19/hapvida-retifica-saldos-contabeis-e-adere-a-acordo-de-renegociacao-de-dividas.htm" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/05/istockphoto-1348116146-612x612-1.jpg" alt="News Image">
+
                 <h3>Hapvida (HAPV3) reduz lucro para R$ 416,4 milhões no 1º tri</h3>
+
                 <a href="https://einvestidor.estadao.com.br/ultimas/hapvida-hapv3-balanco-1-trimestre-2025/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No readable text found in the HTML." alt="News Image">
+
                 <h3>AGU: renegociação de dívida da Hapvida ainda está em análise</h3>
+
                 <a href="https://www.jota.info/saude/agu-renegociacao-de-divida-da-hapvida-ainda-esta-em-analise" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida aprova contrato para construção e locação de hospital em MS</h3>
+
                 <a href="https://estadaori.estadao.com.br/2025/07/08/hapvida-hospital-ms/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/10/AdobeStock_566614614.jpeg" alt="News Image">
+
                 <h3>Por que as ações da Hapvida (HAPV3) caem 6% nesta quarta-feira</h3>
+
                 <a href="https://einvestidor.estadao.com.br/mercado/hapvida-hapv3-acoes-caem-investir-analise/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida inicia procedimentos para grupamento de ações na proporção de 15 para 1</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-inicia-procedimentos-para-grupamento-de-acoes-na-porporcao-de-15-para-1/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/07/istockphoto-1348116147-612x612-1.jpg" alt="News Image">
+
                 <h3>Itaú BBA estima queda no lucro da Hapvida (HAPV3) no 2º tri e corta preço-alvo</h3>
+
                 <a href="https://einvestidor.estadao.com.br/mercado/hapvida-hapv3-acoes-itau-bba-corta-preco-alvo-investir-analise/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida tem percentual da receita comprometido por depósitos judiciais acima da média</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-hapv3-tem-percentual-da-receita-comprometido-por-depositos-judiciais-acima-da-media/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida diz que dados da ANS não refletem necessariamente resultado</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-diz-que-dados-da-ans-nao-refletem-necessariamente-resultado-e-acao-sobe/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>BBA reforça aposta em Hapvida com sólida geração de caixa e queda na judicialização</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/bba-reforca-aposta-em-hapvida-com-solida-geracao-de-caixa-e-queda-na-judicializacao/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Nothing is retrieved..." alt="News Image">
+
                 <h3>Hapvida convoca assembleia para inclusão de 'poison pill' em estatuto social</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/01/27/hapvida-convoca-assembleia-para-inclusao-de-poison-pill-em-estatuto-social.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida (HAPV3): Goldman corta preço-alvo, mas reitera recomendação de compra</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-hapv3-goldman-corta-preco-alvo-mas-reitera-recomendacao-de-compra/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida chega a saltar e a cair 8%, mas fecha estável após 4T</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapv3-de-queda-ao-salto-de-hapvida-por-que-depositos-judiciais-explicam-virada-na-sessao-pos-4t24/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content, as there is no explicit main image URL or og:image meta tag mentioned. Therefore, the response is:
+
+No image found" alt="News Image">
+
                 <h3>Com ações fragilizadas, Hapvida propõe poison pill</h3>
+
                 <a href="https://exame.com/insight/com-acoes-fragilizadas-hapvida-propoe-poison-pill/p" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida (HAPV3) ou Rede D'Or (RDOR3)? Veja qual empresa é preferida pelos investidores</h3>
+
                 <a href="https://einvestidor.estadao.com.br/ultimas/hapvida-hapv3-rede-dor-rdor3-preferencia-investidores/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Hapvida (HAPV3) retifica saldos contábeis e adere a acordo de renegociação de dívidas</h3>
+
                 <a href="https://www.infomoney.com.br/mercados/hapvida-hapv3-retifica-saldos-contabeis-e-adere-a-acordo-de-renegociacao-de-dividas/" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <div id="prevent" class="tab-content">
+
         <div class="gallery">
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2025/06/12/clima-esquenta-na-audiencia-publica-para-debater-hospital-da-prevent-senior-em-botafogo-conheca-o-projeto.ghtml" alt="News Image">
+
                 <h3>Clima esquenta na audiência pública para debater hospital da Prevent Senior em Botafogo</h3>
+
                 <a href="https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2025/06/12/clima-esquenta-na-audiencia-publica-para-debater-hospital-da-prevent-senior-em-botafogo-conheca-o-projeto.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Sem interessados, venda da operação da Prevent Senior do Rio emperra</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/03/06/sem-interessados-venda-da-operacao-da-prevent-senior-do-rio-emperra.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Prevent Senior descredencia hospital e clínicas no Rio, mas terá novo centro médico</h3>
+
                 <a href="https://oglobo.globo.com/economia/negocios/noticia/2025/06/13/prevent-senior-descredencia-servicos-e-tera-novo-centro-medico-no-rio.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Prevent Senior: leitor apresenta reclamação contra a operadora de plano de saúde</h3>
+
                 <a href="https://www.estadao.com.br/sao-paulo/seus-direitos/prevent-senior-leitor-apresenta-reclamacao-contra-a-operadora-de-plano-de-saude/?srsltid=AfmBOoo9_EMCkYdwmdJ3OdzttnSI_QqIm3n9_UnYIHoaGvcWJn-oj6Ve" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Prédio que pode abrigar hospital da Prevent Senior era sede da IBM no Rio</h3>
+
                 <a href="https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2025/05/16/predio-que-pode-abrigar-hospital-da-prevent-senior-era-sede-da-ibm-no-rio-e-esta-fechado-ha-quatro-anos.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Advogada que acusou Prevent Senior vira alvo na Polícia Civil e na OAB</h3>
+
                 <a href="https://veja.abril.com.br/coluna/maquiavel/advogada-que-acusou-prevent-senior-vira-alvo-na-policia-civil-e-na-oab/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Projeto do Executivo para liberar hospital da Prevent Senior tem ambiente favorável na Câmara</h3>
+
                 <a href="https://oglobo.globo.com/rio/bairros/zona-sul/noticia/2025/05/15/de-autoria-do-executivo-e-apoiado-por-vereadores-projeto-para-liberar-hospital-da-prevent-senior-em-botafogo-tera-audiencia-publica-em-junho.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Prevent Senior: leitor reclama de inconsistência de informações sobre valores pagos ao plano</h3>
+
                 <a href="https://www.estadao.com.br/sao-paulo/seus-direitos/prevent-senior-leitor-reclama-de-inconsistencia-de-informacoes-sobre-valores-pagos-ao-plano/?srsltid=AfmBOoqDPig_kbZFNOk933_0VwPHQTzZV5Ljsy754hov5nouIoZhLC9r" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Sob comando do fundo Prisma, Santa Rita volta para o mercado</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/06/05/sob-comando-do-fundo-prisma-santa-rita-volta-para-o-mercado.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://valor.globo.com/empresas/noticia/2025/05/06/medsenior-e-leve-planejam-venda-de-fatia-minoritaria.ghtml" alt="News Image">
+
                 <h3>MedSênior e Leve planejam venda de fatia minoritária</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/05/06/medsenior-e-leve-planejam-venda-de-fatia-minoritaria.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>A denúncia contra atual gestão da Confederação Brasileira de Atletismo</h3>
+
                 <a href="https://veja.abril.com.br/coluna/veja-gente/a-denuncia-contra-atual-gestao-da-confederacao-brasileira-de-atletismo/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS muda regras para planos de saúde e pressiona operadoras a reduzir queixas</h3>
+
                 <a href="https://www.infomoney.com.br/minhas-financas/ans-muda-regras-para-planos-de-saude-e-pressiona-operadoras-a-reduzir-queixas/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>ANS determina reajuste máximo de 6,06% para plano de saúde individual</h3>
+
                 <a href="https://valor.globo.com/empresas/noticia/2025/06/23/ans-determina-reajuste-mximo-de-606-pontos-percentuais-para-plano-de-sade-individual.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="https://valor.globo.com/publicacoes/especiais/revista-seguros-e-previdencia/noticia/2025/06/30/saude-suplementar-registra-lucro-historico-mas-sustentabilidade-preocupa-setor.ghtml" alt="News Image">
+
                 <h3>Saúde suplementar registra lucro histórico, mas sustentabilidade preocupa setor</h3>
+
                 <a href="https://valor.globo.com/publicacoes/especiais/revista-seguros-e-previdencia/noticia/2025/06/30/saude-suplementar-registra-lucro-historico-mas-sustentabilidade-preocupa-setor.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include any image URLs or meta tags such as og:image." alt="News Image">
+
                 <h3>Luciana Munhoz no Migalhas</h3>
+
                 <a href="https://migalhas.uol.com.br/autor/luciana-munhoz" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include any HTML meta tags or image URLs, so it is not possible to extract the URL of the main image or og:image meta tag." alt="News Image">
+
                 <h3>Notícias sobre plano de saúde</h3>
+
                 <a href="https://www1.folha.uol.com.br/folha-topicos/plano-de-saude/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include HTML meta tags or information about the main image, so the og:image meta tag cannot be extracted." alt="News Image">
+
                 <h3>Notícias sobre CPI da Covid</h3>
+
                 <a href="https://www1.folha.uol.com.br/folha-topicos/cpi-da-covid/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Mudamos vidas - e isso muda a gente também, diz médico com 1,3 mil cirurgias gratuitas</h3>
+
                 <a href="https://www.estadao.com.br/saude/mudamos-vidas-e-isso-muda-a-gente-tambem-diz-medico-com-13-mil-cirurgias-gratuitas-no-curriculo/?srsltid=AfmBOoprAHELQ9QkLAtKSlvgebUavJf6fTHHvZS7qeWE_8ptd0RLVP-u" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image URL found in the provided content." alt="News Image">
+
                 <h3>Amor à prova de frio: mesmo com temperaturas baixas, casais comemoram o Dia dos Namorados pelas ruas do Rio</h3>
+
                 <a href="https://oglobo.globo.com/rio/noticia/2025/06/12/amor-a-prova-de-frio-mesmo-com-temperaturas-baixas-casais-comemoram-o-dia-dos-namorados-pelas-ruas-do-rio.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include HTML meta tags or image URLs, so it is not possible to extract the URL of the main image or og:image meta tag." alt="News Image">
+
                 <h3>7188 - Conteúdo Gratuito</h3>
+
                 <a href="https://exame.com/conteudo-gratuito/7188/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Drauzio Varella - Colunista</h3>
+
                 <a href="https://www1.folha.uol.com.br/colunas/drauziovarella/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Autor(a): Andreza de Oliveira</h3>
+
                 <a href="https://www1.folha.uol.com.br/autores/andreza-de-oliveira.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Setor de saúde privada começa a testar compartilhamento de dados de pacientes</h3>
+
                 <a href="https://oglobo.globo.com/economia/tecnologia/noticia/2025/06/22/setor-de-saude-privada-comeca-a-testar-compartilhamento-de-dados-de-pacientes.ghtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Últimas notícias</h3>
+
                 <a href="https://valor.globo.com/ultimas-noticias/index/feed/pagina-632" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Vivo: leitora cobra retirada de fios descartados</h3>
+
                 <a href="https://www.estadao.com.br/sao-paulo/seus-direitos/vivo-leitora-cobra-retirada-de-fios-descartados-pela-empresa-em-calcada-e-via-publica/?srsltid=AfmBOoq-NQ5lsORPRjA_PPCF3iGWyP0iZKwoU3ZHdavkfxNwHP0K8n2n" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Bruno Gualano - Colunista</h3>
+
                 <a href="https://www1.folha.uol.com.br/colunas/bruno-gualano/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>23934 - Conteúdo Gratuito</h3>
+
                 <a href="https://exame.com/conteudo-gratuito/23934/" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="Insufficient relevant content. The provided content does not include any HTML meta tags or image URLs to extract." alt="News Image">
+
                 <h3>Mais sobre: dono</h3>
+
                 <a href="https://rollingstone.uol.com.br/tags/dono" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Autor(a): Vicente Vilardaga</h3>
+
                 <a href="https://www1.folha.uol.com.br/autores/vicente-vilardaga.shtml" target="_blank">Ler mais</a>
+
             </div>
+
             <div class="card">
-                <img src="https://via.placeholder.com/400x200?text=News+Image" alt="News Image">
+
+                <img src="No image found" alt="News Image">
+
                 <h3>Covid: notícias sobre coronavírus</h3>
+
                 <a href="https://www1.folha.uol.com.br/cotidiano/coronavirus/" target="_blank">Ler mais</a>
+
             </div>
+
         </div>
+
     </div>
 
     <script>
+
         const tabs = document.querySelectorAll('.tabs a');
+
         const contents = document.querySelectorAll('.tab-content');
 
         tabs.forEach(tab => {
+
             tab.addEventListener('click', (e) => {
+
                 e.preventDefault();
+
                 tabs.forEach(t => t.classList.remove('active'));
+
                 tab.classList.add('active');
+
                 contents.forEach(c => c.classList.remove('active'));
+
                 document.querySelector(tab.getAttribute('href')).classList.add('active');
+
             });
+
         });
+
     </script>
+
 </body>
+
 </html>
+
+</DOCUMENT>
